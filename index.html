@@ -40,6 +40,60 @@
       window.location.href = url;
     }
   </script>
+  <style>
+    .button-89 {
+      --b: 3px;
+      /* border thickness */
+      --s: .45em;
+      /* size of the corner */
+      --color: #373B44;
+
+      padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+      color: var(--color);
+      --_p: var(--s);
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+      transition: .3s linear, color 0s, background-color 0s;
+      outline: var(--b) solid #0000;
+      outline-offset: .6em;
+      font-size: 16px;
+
+      border: 0;
+
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+    .button-89:hover,
+    .button-89:focus-visible {
+      --_p: 0px;
+      outline-color: var(--color);
+      outline-offset: .05em;
+    }
+
+    .button-89:active {
+      background: var(--color);
+      color: #fff;
+    }
+
+    .centerBTN {
+      text-align: center;
+    }
+
+    .BackgroundColorOffer {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .Backgroundfloat {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+  </style>
   <!--
 
 TemplateMo 591 villa agency
@@ -77,13 +131,13 @@ https://templatemo.com/tm-591-villa-agency
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li><a href="our-guarantee.html">Our Guarantee</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="portfolio.html">Portfolio</a></li>
               <!-- <li><a href="portfolio.html">About Us</a></li> -->
               <li><a href="https://the10m.blogspot.com/">Blogs</a></li>
               <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf"><i
-                    class="fa fa-file-alt"></i> Download Proposal</a></li>
+              <li><a href="https://forms.gle/19sEa7pj41N5vE2U8" target="_blank"><i class="fab fa-whatsapp"></i> Join
+                  Community</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -103,15 +157,15 @@ https://templatemo.com/tm-591-villa-agency
           <div class="slider-item">
             <div class="slider-item-content">
               <div class="post-thumb mb-4">
-                <a href="https://growshal.com/">
-                  <img src="assets/images/T1.jpg" alt="" class="img-fluid">
+                <a href="https://www.katicurtisdesign.com/">
+                  <img src="assets/images/karti.jpg" alt="" class="img-fluid">
                 </a>
               </div>
 
               <div class="slider-post-content">
                 <!-- <span class="cat-name text-color font-sm font-extra text-uppercase letter-spacing">Wordpress</span> -->
-                <h3 class="post-title mt-1"><a href="https://growshal.com/">GROWSHAL</a></h3>
-                <span class=" text-muted  text-capitalize">Happy Client, Wordpress</span>
+                <h3 class="post-title mt-1"><a href="https://www.katicurtisdesign.com/">Katicurtidesign</a></h3>
+                <span class=" text-muted  text-capitalize">Happy Client, Interior Designer</span>
               </div>
             </div>
           </div>
@@ -119,14 +173,14 @@ https://templatemo.com/tm-591-villa-agency
           <div class="slider-item">
             <div class="slider-item-content">
               <div class="post-thumb mb-4">
-                <a href="https://sumaavi.in/">
-                  <img src="assets/images/T2.jpg" alt="" class="img-fluid">
+                <a href="https://alexisring.com/">
+                  <img src="assets/images/alex.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <div class="slider-post-content">
                 <!-- <span class="cat-name text-color font-sm font-extra text-uppercase letter-spacing">Travel</span> -->
-                <h3 class="post-title mt-1"><a href="https://sumaavi.in/">SUMAAVI</a></h3>
-                <span class=" text-muted  text-capitalize">Happy Client, Shopify</span>
+                <h3 class="post-title mt-1"><a href="https://alexisring.com/">Alexisring</a></h3>
+                <span class=" text-muted  text-capitalize">Happy Client, Interior Designer</span>
               </div>
             </div>
           </div>
@@ -142,7 +196,7 @@ https://templatemo.com/tm-591-villa-agency
                 <!-- <span class="cat-name text-color font-sm font-extra text-uppercase letter-spacing">weekends</span> -->
                 <h3 class="post-title mt-1"><a href="https://crazyka.in/">CRAZYKA</a>
                 </h3>
-                <span class=" text-muted  text-capitalize">Happy Client, Shopify</span>
+                <span class=" text-muted  text-capitalize">Happy Client, Home Decor</span>
               </div>
             </div>
           </div>
@@ -150,15 +204,15 @@ https://templatemo.com/tm-591-villa-agency
           <div class="slider-item">
             <div class="slider-item-content">
               <div class="post-thumb mb-4">
-                <a href="https://www.apexmarketers.in/">
-                  <img src="assets/images/T5.jpg" alt="" class="img-fluid">
+                <a href="https://iaad.in/">
+                  <img src="assets/images/studio.jpg" alt="" class="img-fluid">
                 </a>
               </div>
 
               <div class="slider-post-content">
                 <!-- <span class="cat-name text-color font-sm font-extra text-uppercase letter-spacing">Travel</span> -->
-                <h3 class="post-title mt-1"><a href="https://www.apexmarketers.in/">APEX MARKETERS</a></h3>
-                <span class=" text-muted  text-capitalize">Happy Client, HTML</span>
+                <h3 class="post-title mt-1"><a href="https://iaad.in/">StudioIAAD</a></h3>
+                <span class=" text-muted  text-capitalize">Happy Client, Architects</span>
               </div>
             </div>
           </div>
@@ -166,15 +220,15 @@ https://templatemo.com/tm-591-villa-agency
           <div class="slider-item">
             <div class="slider-item-content">
               <div class="post-thumb mb-4">
-                <a href="https://maahru.in/">
-                  <img src="assets/images/T4.jpg" alt="" class="img-fluid">
+                <a href="https://thomarinteriors.com/index.php">
+                  <img src="assets/images/thomar.jpg" alt="" class="img-fluid">
                 </a>
               </div>
 
               <div class="slider-post-content">
-                <!-- <span class="cat-name text-color font-sm font-extra text-uppercase letter-spacing">Travel</span> -->
-                <h3 class="post-title mt-1"><a href="https://maahru.in/">MAAHRU</a></h3>
-                <span class=" text-muted  text-capitalize">Happy Client, Shopify</span>
+                <!-- <span class="cat-name text-color font-sm font-extra text-uppercase letter-spacing">Wordpress</span> -->
+                <h3 class="post-title mt-1"><a href="https://thomarinteriors.com/index.php">Thomar Interiors</a></h3>
+                <span class=" text-muted  text-capitalize">Happy Client, Interior Designer</span>
               </div>
             </div>
           </div>
@@ -182,15 +236,14 @@ https://templatemo.com/tm-591-villa-agency
           <div class="slider-item">
             <div class="slider-item-content">
               <div class="post-thumb mb-4">
-                <a href="https://www.astitvajobs.tech/">
-                  <img src="assets/images/T6.jpg" alt="" class="img-fluid">
+                <a href="https://alexisring.com/">
+                  <img src="assets/images/alex.jpg" alt="" class="img-fluid">
                 </a>
               </div>
-
               <div class="slider-post-content">
                 <!-- <span class="cat-name text-color font-sm font-extra text-uppercase letter-spacing">Travel</span> -->
-                <h3 class="post-title mt-1"><a href="https://www.astitvajobs.tech/">ASTITVA</a></h3>
-                <span class=" text-muted  text-capitalize">Happy Client, HTML</span>
+                <h3 class="post-title mt-1"><a href="https://alexisring.com/">Alexisring</a></h3>
+                <span class=" text-muted  text-capitalize">Happy Client, Interior Designer</span>
               </div>
             </div>
           </div>
@@ -200,360 +253,430 @@ https://templatemo.com/tm-591-villa-agency
     </div>
   </section>
 
-  <div class="featured section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="left-image">
-            <img src="assets/images/F.jpg" alt="">
-            <a href="portfolio.html"><img src="assets/images/featured-icon.png" alt=""
-                style="max-width: 60px; padding: 0px;"></a>
+
+  <div id="bg-wrap" class="BackgroundColorOffer">
+    <div class="single-property section">
+      <div class="section-heading px-4">
+        <h2 style="text-align:center; color:white; text-shadow:0 0 10px rgba(0,8,5,0.5);">FREE Website Design For
+          Architects<br />+</h2>
+        <h4 style="text-align:center; font-size:22px; color:rgb(255, 255, 255); font-weight:normal;">FREE Entry in
+          Private Architects
+          Community Group</h4>
+        <p class="pt-4" style="text-align:center; font-size:16px; color:rgb(92, 59, 48);">Only for First 20 Clients.
+          Just bear
+          the
+          cost of hosting and
+          domain. If you missed
+          out on above offer. Please <strong>Join the waitlist</strong> So you get offers on your whatsapp immediately.
+        </p>
+        <div class="centerBTN">
+          <div class="icon-button mb-4 mt-4">
+            <a href="javascript:void(0);" onclick="openWhatsApp()"><i class="fab fa-whatsapp fa-lg"></i> Yes, I want
+              FREE
+              Website</a>
           </div>
         </div>
-        <div class="col-lg-5">
-          <div class="section-heading">
-            <h6>| OUR SPECIAL</h6>
-            <h2>Money-back Guarantee</h2>
-          </div>
-          <div class="icon-button mb-4">
-            <a href="our-guarantee.html"><i class="fa fa-money-bill"></i> Learn More</a>
-          </div>
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  How Money-back Guarantee Works ?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Our <strong>Money-back Guarantee</strong> works we are not able to deliver desired results within 6
-                  months we will return your money.</div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Why I choose you over others?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Our <strong>Experience</strong>, we have 8+ years of SEO expert, 4+ years of web designer and best
-                  content writers with powerful AI tools for best results in industry.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  How it helps to grow my Business ?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  We give our best for your strong online presence. we guarantee you will receive visitors on your
-                  blogs, website
-                  and 100% ROI on your investment.
-                </div>
-              </div>
-            </div>
+        <!-- <div class="centerBTN">
+          <div class="icon-button mb-4 mt-4">
+            <a href="https://forms.gle/p5aJCFYYZ1qfbU4G7" target="_blank"><i class="far fa-sad-tear fa-lg"></i>Sorry, We
+              are Sold
+              Out</a>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="info-table">
-            <ul>
-              <li>
-                <img src="assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
-                <h4>Book Us<br><span>Begin with us</span></h4>
-              </li>
-              <li>
-                <img src="assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
-                <h4>Plan<br><span>We strategize</span></h4>
-              </li>
-              <li>
-                <img src="assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
-                <h4>Manage<br><span>We handle</span></h4>
-              </li>
-              <li>
-                <img src="assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
-                <h4>Sit Back<br><span>Let us work</span></h4>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <div class="centerBTN">
+          <a href="https://forms.gle/p5aJCFYYZ1qfbU4G7" target="_blank" class="button-89 icon-button mb-4"
+            role="button">Join the Waitlist</a>
+        </div> -->
       </div>
     </div>
+    <svg class="Backgroundfloat" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5">
+          <animate attributeName="fx" dur="34s" values="0%;3%;0%" repeatCount="indefinite"></animate>
+          <stop offset="0%" stop-color="rgba(255, 0, 255, 1)"></stop>
+          <stop offset="100%" stop-color="rgba(255, 0, 255, 0)"></stop>
+        </radialGradient>
+        <radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5">
+          <animate attributeName="fx" dur="23.5s" values="0%;3%;0%" repeatCount="indefinite"></animate>
+          <stop offset="0%" stop-color="rgba(255, 255, 0, 1)"></stop>
+          <stop offset="100%" stop-color="rgba(255, 255, 0, 0)"></stop>
+        </radialGradient>
+        <radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.836536%" fy="50%" r=".5">
+          <animate attributeName="fx" dur="21.5s" values="0%;3%;0%" repeatCount="indefinite"></animate>
+          <stop offset="0%" stop-color="rgba(0, 255, 255, 1)"></stop>
+          <stop offset="100%" stop-color="rgba(0, 255, 255, 0)"></stop>
+        </radialGradient>
+        <radialGradient id="Gradient4" cx="50%" cy="50%" fx="4.56417%" fy="50%" r=".5">
+          <animate attributeName="fx" dur="23s" values="0%;5%;0%" repeatCount="indefinite"></animate>
+          <stop offset="0%" stop-color="rgba(0, 255, 0, 1)"></stop>
+          <stop offset="100%" stop-color="rgba(0, 255, 0, 0)"></stop>
+        </radialGradient>
+        <radialGradient id="Gradient5" cx="50%" cy="50%" fx="2.65405%" fy="50%" r=".5">
+          <animate attributeName="fx" dur="24.5s" values="0%;5%;0%" repeatCount="indefinite"></animate>
+          <stop offset="0%" stop-color="rgba(0,0,255, 1)"></stop>
+          <stop offset="100%" stop-color="rgba(0,0,255, 0)"></stop>
+        </radialGradient>
+        <radialGradient id="Gradient6" cx="50%" cy="50%" fx="0.981338%" fy="50%" r=".5">
+          <animate attributeName="fx" dur="25.5s" values="0%;5%;0%" repeatCount="indefinite"></animate>
+          <stop offset="0%" stop-color="rgba(255,0,0, 1)"></stop>
+          <stop offset="100%" stop-color="rgba(255,0,0, 0)"></stop>
+        </radialGradient>
+      </defs>
+      <rect x="13.744%" y="1.18473%" width="100%" height="100%" fill="url(#Gradient1)" transform="rotate(334.41 50 50)">
+        <animate attributeName="x" dur="20s" values="25%;0%;25%" repeatCount="indefinite"></animate>
+        <animate attributeName="y" dur="21s" values="0%;25%;0%" repeatCount="indefinite"></animate>
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="7s"
+          repeatCount="indefinite"></animateTransform>
+      </rect>
+      <rect x="-2.17916%" y="35.4267%" width="100%" height="100%" fill="url(#Gradient2)"
+        transform="rotate(255.072 50 50)">
+        <animate attributeName="x" dur="23s" values="-25%;0%;-25%" repeatCount="indefinite"></animate>
+        <animate attributeName="y" dur="24s" values="0%;50%;0%" repeatCount="indefinite"></animate>
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="12s"
+          repeatCount="indefinite"></animateTransform>
+      </rect>
+      <rect x="9.00483%" y="14.5733%" width="100%" height="100%" fill="url(#Gradient3)"
+        transform="rotate(139.903 50 50)">
+        <animate attributeName="x" dur="25s" values="0%;25%;0%" repeatCount="indefinite"></animate>
+        <animate attributeName="y" dur="12s" values="0%;25%;0%" repeatCount="indefinite"></animate>
+        <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="9s"
+          repeatCount="indefinite"></animateTransform>
+      </rect>
+    </svg>
   </div>
 
-  <div class="fun-facts">
+  <div class="single-property section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="wrapper">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="counter">
-                  <h2 class="timer count-title count-number" data-to="55" data-speed="1000"></h2>
-                  <p class="count-text ">Projects<br>Completed</p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="counter">
-                  <h2 class="timer count-title count-number" data-to="8" data-speed="1000"></h2>
-                  <p class="count-text ">Years<br>of Team Experience</p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="counter">
-                  <h2 class="timer count-title count-number" data-to="90" data-speed="1000"></h2>
-                  <p class="count-text ">SEO Score<br>Guaranteed</p>
-                </div>
+          <div class="main-content">
+            <h4 style="text-align:center">OUR MISSION</h4>
+            <p style="text-align:center">We are on a mission to help Architects and Interior Designers to get more
+              clients and money with strong
+              digital presence. so we are
+              creating the <strong>World' Largest Architect Community ever Built</strong>. If you are an Interior
+              Designer and Architect
+              Want more sales, Want to grow on instagram or Want guidence from Top Architects of Country,
+              Awards. We are the solution!!</p>
+            <div class="centerBTN">
+              <div class="icon-button mb-4 mt-4">
+                <a href="https://forms.gle/19sEa7pj41N5vE2U8" target="_blank"><i class="fab fa-whatsapp fa-lg"></i>Join
+                  Architects Private Community</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-  <!-- Our Services -->
-  <div class="properties section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 offset-lg-4">
-          <div class="section-heading text-center">
-            <h2>Our Services</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="portfolio.html"><img src="assets/images/Untitled design (80).jpg" alt=""></a>
-            <span class="category">Best Seller</span>
-            <h6>from Rs.10K</h6>
-            <h4><a href="portfolio.html">Website Design</a></h4>
-            <ul>
-              <li>Tech: <span>Wordpress, Shopify, Wix</span></li>
-              <li>Our Experience: <span>4 Years</span></li>
-              <li>Website Designed: <span>50+</span></li>
-              <li>USP: <span>Speed Optimised</span>
-              </li>
-              <li>USP: <span>High Converting SEO Friendly</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+    <div class="featured section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="left-image">
+              <img src="assets/images/F.jpg" alt="">
+              <a href="portfolio.html"><img src="assets/images/featured-icon.png" alt=""
+                  style="max-width: 60px; padding: 0px;"></a>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="portfolio.html"><img src="assets/images/seo.jpg" alt=""></a>
-            <span class="category">Popular</span>
-            <h6>from Rs.5k</h6>
-            <h4><a href="portfolio.html">SEO</a></h4>
-            <ul>
-              <li>ALL: <span>Technical, Keyword, Backlink</span></li>
-              <li>Our Experience: <span>8 Years</span></li>
-              <li>Projects Handled: <span>75+</span></li>
-              <li>Google Score: <span>90+</span></li>
-              <li>Results: <span>site Rank(under 6 Months)</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+          <div class="col-lg-8">
+            <div class="section-heading">
+              <h6>| OUR SPECIAL</h6>
+              <h2>Our Grand-Slam Offer</h2>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="portfolio.html"><img src="assets/images/blog.jpg" alt=""></a>
-            <span class="category">Trending</span>
-            <h6></h6>
-            <h4><a href="portfolio.html">Blog Writing</a></h4>
-            <ul>
-              <li>Research: <span>Proper Strategy</span></li>
-              <li>Our Experience: <span>4 Years</span></li>
-              <li>Keyword Research: <span>High Volume & Low Compititon</span></li>
-              <li>Optimized: <span>To Get More Traffic</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+            <div class="icon-button mb-4">
+              <a href="javascript:void(0);" onclick="openWhatsApp()"><i class="fa fa-money-bill"></i> Talk with Us</a>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="portfolio.html"><img src="assets/images/ads.jpg" alt=""></a>
-            <span class="category">Popular</span>
-            <!-- <h6>$584.500</h6> -->
-            <h4><a href="portfolio.html">Advertising</a></h4>
-            <ul>
-              <li>Types: <span>Google & FB Ads</span></li>
-              <li>Research: <span>Customer Demographics & Intrests</span></li>
-              <li>Experience: <span>2.5 Years</span></li>
-              <li>Ads Run: <span>50+ Performance Based</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="portfolio.html"><img src="assets/images/smm.jpg" alt=""></a>
-            <span class="category">Complimentry</span>
-            <!-- <h6>$925.600</h6> -->
-            <h4><a href="portfolio.html">Social Media Marketing</a></h4>
-            <ul>
-              <li>Our Experience: <span>2 Years</span></li>
-              <li>For: <span>Instagram, FB, LinkedIn</span></li>
-              <li>Creative: <span>Proffesional Creatives</span></li>
-              <li>Reels: <span>Engaging Reels To Increase Reach</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="portfolio.html"><img src="assets/images/gmb.jpg" alt=""></a>
-            <span class="category">Complimentry</span>
-            <!-- <h6>$450.000</h6> -->
-            <h4><a href="portfolio.html">Google My Business (GMB)</a></h4>
-            <ul>
-              <li>Setup: <span>Profile Listing & SEO</span></li>
-              <li>Review: <span>Review Manage for better Reach</span></li>
-              <li>Content: <span>HD Video & Photos</span></li>
-              <li>Support: <span>Reply to Queries Online</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+            <div class="main-content">
+              <p>Pay One Time (No Monthly Fees). Just cover Ad spend. I will get you Clients/ Leads who are eager to pay
+                you. Only pay me if people becomes your client. And I will guarantee you get 10 Leads in your first
+                month or you will get your next month for Free.<br /> I will provide best practices from other
+                Architects
+                and Interior Designers like yours :<br /><br />
+                - High quality website to show you clients your work<br />
+                - Private Architects Community Group Access<br />
+                - Elite Architects VIP Group Access<br />
+                - Instagram Manage and Growth Guarantee<br />
+                - Guaranteed SEO Results<br />
+                - Daily Sales tips to close your Clients. Tested Scripts that works<br />
+                - Tested Price points & offers that works so you don't have to cut prices<br />
+                - Sales Recordings of top guys to learn<br />
+                - Instagram tips & video ideas to go viral and make money<br />
+                - Vastu Cheat Sheet & More ways to make money from your knowledge<br />
+                - Get quality products to clients and also make money on them and much more...<br /><br />
+                <strong>My agency only accept 20 Clients for Our Core Offer and we already have 16 spots taken. I have
+                  300
+                  people in waiting list and 100 people in Private Architects Community Group. So If its
+                  taken you can
+                  wait until we reopen. Join Our Waitlist</strong>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- 
-  Contact Section Starts -->
-
-  <div class="contact section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 offset-lg-4">
-          <div class="section-heading text-center">
-            <h2>Get In Touch</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="contact-content">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="item phone">
-
-                <a href="" tel:+91-7014999806"">
-                  <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
-                  <h6>+91-7014999806<br><span>Call Us</span></h6>
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="item email">
-                <a href="mailto:chagansingh9876@gmail.com">
-                  <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
-                  <h6>Mail Us<br><span>for support</span></h6>
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="item email">
-                <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">
-                  <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
-                  <h6>Download Proposal<br><span>For Pricing</span></h6>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="whatsapp-button">
-    <a href="javascript:void(0);" onclick="openWhatsApp()">
-      <img src="assets/images/wp-btn.png" alt="WhatsApp">
-    </a>
-  </div>
-
-  <section class="footer-2 section-padding gray-bg pb-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-12 text-center">
-          <a href="index.html">
-            <img src="assets/images/logo.png" class="footer-logo mx-auto" />
-          </a>
-
-        </div>
-      </div>
-
-      <div class="footer-btm mt-5 pt-4 border-top">
+    <div class="fun-facts">
+      <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <ul class="list-inline footer-socials-2 text-center">
-              <li class="list-inline-item"><a href="#">Privacy policy</a></li>
-              <li class="list-inline-item"><a href="#">Terms & Condition</a></li>
-              <li class="list-inline-item"><a href="javascript:void(0);" onclick="openWhatsApp()">Support</a></li>
-              <li class="list-inline-item"><a href="contact.html">Contact</a></li>
-              <li class="list-inline-item"><a href="tel:+91-7014999806">Call Us</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="copyright text-center ">
-              Copyright © 2024 The 10M Media, All rights reserved.
+            <div class="wrapper">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="counter">
+                    <h2 class="timer count-title count-number" data-to="16" data-speed="1000"></h2>
+                    <p class="count-text ">On-Going<br>Clients</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="counter">
+                    <h2 class="timer count-title count-number" data-to="8" data-speed="1000"></h2>
+                    <p class="count-text ">Years<br>of Team Experience</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="counter">
+                    <h2 class="timer count-title count-number" data-to="20" data-speed="1000"></h2>
+                    <p class="count-text ">Instagram <br>Clients</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- Scripts -->
-  <!-- THEME JAVASCRIPT FILES
+
+    <!-- Our Services -->
+    <!-- <div class="properties section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 offset-lg-4">
+            <div class="section-heading text-center">
+              <h2>Our Grand Slam Offer!</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <a href="portfolio.html"><img src="assets/images/Untitled design (80).jpg" alt=""></a>
+              <span class="category">Best Seller</span>
+              <h6>from Rs.10K</h6>
+              <h4><a href="portfolio.html">Website Design</a></h4>
+              <ul>
+                <li>Tech: <span>Wordpress, Shopify, Wix</span></li>
+                <li>Our Experience: <span>4 Years</span></li>
+                <li>Website Designed: <span>50+</span></li>
+                <li>USP: <span>Speed Optimised</span>
+                </li>
+                <li>USP: <span>High Converting SEO Friendly</span></li>
+              </ul>
+              <div class="main-button">
+                <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <a href="portfolio.html"><img src="assets/images/seo.jpg" alt=""></a>
+              <span class="category">Popular</span>
+              <h6>from Rs.5k</h6>
+              <h4><a href="portfolio.html">SEO</a></h4>
+              <ul>
+                <li>ALL: <span>Technical, Keyword, Backlink</span></li>
+                <li>Our Experience: <span>8 Years</span></li>
+                <li>Projects Handled: <span>75+</span></li>
+                <li>Google Score: <span>90+</span></li>
+                <li>Results: <span>site Rank(under 6 Months)</span></li>
+              </ul>
+              <div class="main-button">
+                <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <a href="portfolio.html"><img src="assets/images/blog.jpg" alt=""></a>
+              <span class="category">Trending</span>
+              <h6></h6>
+              <h4><a href="portfolio.html">Blog Writing</a></h4>
+              <ul>
+                <li>Research: <span>Proper Strategy</span></li>
+                <li>Our Experience: <span>4 Years</span></li>
+                <li>Keyword Research: <span>High Volume & Low Compititon</span></li>
+                <li>Optimized: <span>To Get More Traffic</span></li>
+              </ul>
+              <div class="main-button">
+                <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <a href="portfolio.html"><img src="assets/images/ads.jpg" alt=""></a>
+              <span class="category">Popular</span>
+      
+    <h4><a href="portfolio.html">Advertising</a></h4>
+    <ul>
+      <li>Types: <span>Google & FB Ads</span></li>
+      <li>Research: <span>Customer Demographics & Intrests</span></li>
+      <li>Experience: <span>2.5 Years</span></li>
+      <li>Ads Run: <span>50+ Performance Based</span></li>
+    </ul>
+    <div class="main-button">
+      <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <div class="item">
+      <a href="portfolio.html"><img src="assets/images/smm.jpg" alt=""></a>
+      <span class="category">Complimentry</span>
+      <h4><a href="portfolio.html">Social Media Marketing</a></h4>
+      <ul>
+        <li>Our Experience: <span>2 Years</span></li>
+        <li>For: <span>Instagram, FB, LinkedIn</span></li>
+        <li>Creative: <span>Proffesional Creatives</span></li>
+        <li>Reels: <span>Engaging Reels To Increase Reach</span></li>
+      </ul>
+      <div class="main-button">
+        <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <div class="item">
+      <a href="portfolio.html"><img src="assets/images/gmb.jpg" alt=""></a>
+      <span class="category">Complimentry</span>
+  
+      <h4><a href="portfolio.html">Google My Business (GMB)</a></h4>
+      <ul>
+        <li>Setup: <span>Profile Listing & SEO</span></li>
+        <li>Review: <span>Review Manage for better Reach</span></li>
+        <li>Content: <span>HD Video & Photos</span></li>
+        <li>Support: <span>Reply to Queries Online</span></li>
+      </ul>
+      <div class="main-button">
+        <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">Download Proposal</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div> -->
+
+    <!-- 
+  Contact Section Starts -->
+
+    <div class="contact section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 offset-lg-4">
+            <div class="section-heading text-center">
+              <h2>Get In Touch</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="item phone">
+
+                  <a href="" tel:+91-7014999806"">
+                    <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
+                    <h6>+91-7014999806<br><span>Call Us</span></h6>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="item email">
+                  <a href="mailto:chagansingh9876@gmail.com">
+                    <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
+                    <h6>Mail Us<br><span>for support</span></h6>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="item email">
+                  <a href="assets/images/The 10M Proposal.pdf" download="The 10M Proposal.pdf">
+                    <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
+                    <h6>Download Proposal<br><span>For Pricing</span></h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="whatsapp-button">
+      <a href="javascript:void(0);" onclick="openWhatsApp()">
+        <img src="assets/images/wp-btn.png" alt="WhatsApp">
+      </a>
+    </div>
+
+    <section class="footer-2 section-padding gray-bg pb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <a href="index.html">
+              <img src="assets/images/logo.png" class="footer-logo mx-auto" />
+            </a>
+
+          </div>
+        </div>
+
+        <div class="footer-btm mt-5 pt-4 border-top">
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list-inline footer-socials-2 text-center">
+                <li class="list-inline-item"><a href="#">Privacy policy</a></li>
+                <li class="list-inline-item"><a href="#">Terms & Condition</a></li>
+                <li class="list-inline-item"><a href="javascript:void(0);" onclick="openWhatsApp()">Support</a></li>
+                <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+                <li class="list-inline-item"><a href="tel:+91-7014999806">Call Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="copyright text-center ">
+                Copyright © 2024 The 10M Media, All rights reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <!-- THEME JAVASCRIPT FILES
 ================================================== -->
-  <!-- initialize jQuery Library -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <!-- Bootstrap jQuery -->
-  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-  <script src="plugins/bootstrap/js/popper.min.js"></script>
-  <!-- Owl caeousel -->
-  <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
-  <script src="plugins/slick-carousel/slick.min.js"></script>
-  <script src="plugins/magnific-popup/magnific-popup.js"></script>
+    <!-- initialize jQuery Library -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/bootstrap/js/popper.min.js"></script>
+    <!-- Owl caeousel -->
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/slick-carousel/slick.min.js"></script>
+    <script src="plugins/magnific-popup/magnific-popup.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/custom.js"></script>
 
 </body>
 
