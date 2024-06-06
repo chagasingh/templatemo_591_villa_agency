@@ -2091,17 +2091,24 @@ Pricing
   transform: scale(1.1);
 }
 
-.pricing .col-sm-6:nth-child(1) .card,
-.pricing .col-sm-6:nth-child(1) .card .title .fa {
+.pricing .col-sm-4:nth-child(1) .card,
+.pricing .col-sm-4:nth-child(1) .card .title .fa {
   background: linear-gradient(-45deg, #2d545e, #22c1c3);
   margin-bottom: 15px;
 
 }
 
-.pricing .col-sm-6:nth-child(2) .card,
-.pricing .col-sm-6:nth-child(2) .card .title .fa {
+.pricing .col-sm-4:nth-child(2) .card,
+.pricing .col-sm-4:nth-child(2) .card .title .fa {
   background: linear-gradient(-45deg, #ffec61, #2d545e);
   margin-bottom: 15px;
+}
+
+.pricing .col-sm-4:nth-child(3) .card,
+.pricing .col-sm-4:nth-child(3) .card .title .fa {
+  background: linear-gradient(-45deg, #2d545e, #22c1c3);
+  margin-bottom: 15px;
+
 }
 
 .pricing .card::before {
@@ -2149,7 +2156,7 @@ Pricing
   margin: 0;
   padding: 20px 0;
   color: #fff;
-  font-size: 44px;
+  font-size: 30px;
 }
 
 .pricing .option ul {
